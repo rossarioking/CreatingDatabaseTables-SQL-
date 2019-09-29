@@ -1,0 +1,6 @@
+"This Select Query returns the employee number the name of the employee, there job and there department nember where there job title is manager or the department number is 50 "
+
+SELECT EMPNO, NAME, JOB, DEPTNO
+FROM EMPLOYEE
+WHERE JOB = 'Mngr' 
+OR (JOB = 'Clrk' AND DEPTNO = 50); 
